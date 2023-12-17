@@ -1,6 +1,8 @@
 baseurl = "/"
-languageCode = "nl-nl"
+languageCode = "nl-NL"
 languageLang = "nl"
+defaultContentLanguage = "nl"
+defaultContentLang = "nl"
 title = "Nijmeegs Beeldhouw Centrum"
 
 # RSS, categories and tags disabled for an easy start
