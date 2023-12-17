@@ -3,12 +3,30 @@ import React from "react";
 export default class FooterPreview extends React.Component {
   render() {
     const {entry} = this.props;
-    return <div className="measure-narrow center mb4">
+    return <div class="mw7 center pt3">
+      <div class="flex-ns justify-between">
 
-      <p className="f3 lh-title light-gray b tc mb2">{entry.getIn(["data", "title"])}</p>
-      <p>{entry.getIn(["data", "blurb"])}</p>
+        <div>
+          <ul class="mb3">
+            <li>{entry.getIn(["data", "address"])}</li>
+            <li>{entry.getIn(["data", "postalcode"])}</li>
+            <li>{entry.getIn(["data", "city"])}</li>
+          </ul>
+        </div>
 
-    </div>;
+        <div>
+          <ul class="mb3">
+            <li>Tel: <a href={`tel: ${entry.getIn(["data", "phonenumber"])}`}>
+              {entry.getIn(["data", "phonenumber"])}
+              </a></li>
+            <li>Email: <a href={`mailto: ${entry.getIn(["data", "email"])}`}>
+              {entry.getIn(["data", "email"])}
+              </a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
   }
 }
 

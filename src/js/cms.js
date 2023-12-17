@@ -1,4 +1,5 @@
 import CMS from "decap-cms-app";
+import { nl } from "decap-cms-locales"
 
 // Import main site styles as a string to inject into the CMS preview pane
 // eslint-disable-next-line import/no-unresolved
@@ -12,6 +13,7 @@ import ContactPreview from "./cms-preview-templates/contact";
 import FooterPreview from "./cms-preview-templates/footer";
 
 CMS.registerPreviewStyle(styles, {raw: true});
+CMS.registerLocale('nl', nl);
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
