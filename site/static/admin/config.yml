@@ -35,9 +35,9 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
+          - {label: Afbeelding, name: image, widget: image}
           - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
+          - label: Contact Methodes
             name: contact_entries
             widget: list
             fields:
@@ -50,9 +50,9 @@ collections: # A list of collections the CMS should be able to edit
   - name: "site_settings"
     label: "Site Settings"
     files:
-      - file: "site/data/nieuws.json"
+      - file: "site/data/nieuwsoverzicht.json"
         label: "Nieuws Overzicht"
-        name: "nieuws"
+        name: "nieuwsoverzicht"
         fields:
           - {label: Titel, name: title, widget: string}
           - {label: Afbeelding, name: image, widget: image}
