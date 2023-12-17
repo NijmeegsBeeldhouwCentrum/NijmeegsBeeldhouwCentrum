@@ -11,8 +11,8 @@ blurb:
 intro:
   heading: Aan het water
   text: Het Nijmeegs Beeldhouw Centrum is gevestigd in Nijmegen, in het oude
-    botenhuis van Phocas en wordt momenteel gerenoveerd om voor kunstenarin in
-    en omtrent Nijmegen als atelier te kunnen dienen.
+    botenhuis van Phocas en wordt momenteel gerenoveerd om voor kunstenaren in
+    in en omtrent Nijmegen als atelier te kunnen dienen.
 products:
   - image: img/illustrations-coffee.svg
     text: We sell green and roasted coffee beans that are sourced directly from
