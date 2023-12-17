@@ -9,7 +9,7 @@ blurb:
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
 intro:
-  heading: Welkom op de website van het Nijmeegs Beeldhouw Centrum
+  heading: Aan het water
   text: Het Nijmeegs Beeldhouw Centrum is gevestigd in Nijmegen, in het oude
     botenhuis van Phocas en wordt momenteel gerenoveerd om voor kunstenarin in
     en omtrent Nijmegen als atelier te kunnen dienen.
