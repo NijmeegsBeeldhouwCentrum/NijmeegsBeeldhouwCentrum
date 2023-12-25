@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Site.Data.nieuwsoverzicht.image "title" .Site.Data.nieuwsoverzicht.title) }}
+{{ partial "large-image" (dict "imageUrl" .Site.Data.nieuwsoverzicht.image) }}
+
+{{ partial "heading" (dict "title" .Site.Data.nieuwsoverzicht.title) }}
 
 <div class="mw7 center">
   <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3">

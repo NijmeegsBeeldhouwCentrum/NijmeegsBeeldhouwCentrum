@@ -1,9 +1,11 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "large-image" (dict "imageUrl" .Params.image) }}
 
 {{ partial "short-text" (dict "heading" .Params.intro.heading "text" .Params.intro.text) }}
 
 {{ partial "nieuws" . }}
+
+{{ partial "afbeeldingen" . }}
 
 {{ end }}

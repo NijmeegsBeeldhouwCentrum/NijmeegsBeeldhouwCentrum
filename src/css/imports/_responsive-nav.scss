@@ -2,9 +2,6 @@
     cursor: pointer;
     display: block;
     padding: var(--spacing-medium) var(--spacing-small) 0 0;
-    position: absolute;
-    right: 0;
-    top: 0;
     z-index: 2;
 }
 
@@ -20,6 +17,14 @@
     transition: height .3s ease-in-out;
     min-width: 100%;
     z-index: 1;
+}
+
+.nav-logo {
+    height: 54px;
+}
+
+.nav-title {
+    font-size: 16px;
 }
 
 .mobile-menu-inner {
@@ -51,6 +56,20 @@
         flex-direction: row;
         position: static;
         min-width: unset;
-        height: auto;
+        height: 2.5rem;
+    }
+
+    .nav-logo {
+        height: 2.5rem;
+    }
+}
+
+@media (--breakpoint-very-large) {
+    .nav-logo, .nav-menu {
+        height: 4rem;
+    }
+
+    .nav-title {
+        font-size: 22px;
     }
 }

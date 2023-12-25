@@ -71,6 +71,7 @@
     "netlify-plugin-cypress": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "simplelightbox": "^2.14.2",
     "to-string-loader": "^1.2.0"
   }
 }

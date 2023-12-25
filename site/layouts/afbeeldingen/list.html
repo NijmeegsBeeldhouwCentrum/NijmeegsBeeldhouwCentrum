@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+{{ partial "large-image" (dict "imageUrl" .Site.Data.afbeeldingenoverzicht.image) }}
+
+{{ partial "heading" (dict "title" .Site.Data.afbeeldingenoverzicht.title) }}
+
+<div class="mw7 center">
+  <div class="flex flex-wrap mhn1 gallery">
+    {{ range (.Paginator 20).Pages.ByPublishDate.Reverse }}
+    <div class="ph1-ns w-50-ns flex">
+      <a class="no-underline db raise w-100" href="{{ .Params.image }}">
+        <img src="{{ .Params.image }}" alt="{{ .Params.title }}">
+      </a>
+    </div>
+    {{ end }}
+  </div>
+  {{ partial "pagination" . }}
+</div>
+
+
+{{end}}

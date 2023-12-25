@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
-
+{{ partial "large-image" (dict "imageUrl" .Params.image) }}
+{{ partial "heading" (dict "title" .Title)}}
 
   <div class="mw6 center ph3 pv4">
     <div class="flex justify-between grey-3">

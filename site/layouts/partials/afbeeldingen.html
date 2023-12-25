@@ -1,0 +1,22 @@
+<div class="bg-off-white pv4">
+	<div class="ph3 mw7 center">
+
+		<h2 class="f2 b lh-title mb3">Afbeeldingen</h2>
+
+		<div class="flex flex-wrap mhn1 gallery">
+			{{ range first 3 (where .Site.RegularPages "Type" "afbeeldingen") }}
+                <div class="ph1-ns w-50-ns flex">
+                    <a class="no-underline db raise w-100" href="{{ .Params.image }}">
+                        <img src="{{ .Params.image }}" alt="{{ .Params.title }}">
+                    </a>
+                </div>
+			{{ end }}
+		</div>
+
+		<div class="tc">
+			<a href="/nieuws" class="btn raise">Alle afbeeldingen</a>
+		</div>
+
+	</div>
+</div>
+

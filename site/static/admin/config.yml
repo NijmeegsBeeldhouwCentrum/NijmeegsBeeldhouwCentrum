@@ -30,29 +30,32 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-      - file: "site/content/contact/_index.md"
-        label: "Contact Pagina"
-        name: "contact"
+      - file: "site/content/mijmeringen/_index.md"
+        label: "Mijmeringen Pagina"
+        name: "mijmeringen"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Titel, name: title, widget: string}
           - {label: Afbeelding, name: image, widget: image}
           - {label: Body, name: body, widget: markdown}
-          - label: Contact Methodes
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+  - name: "afbeeldingen"
+    label: "Afbeeldingen"
+    folder: "site/content/afbeeldingen"
+    create: true
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Afbeelding", name: "image", widget: "image"}
   - name: "site_settings"
     label: "Site Settings"
     files:
       - file: "site/data/nieuwsoverzicht.json"
         label: "Nieuws Overzicht"
         name: "nieuwsoverzicht"
+        fields:
+          - {label: Titel, name: title, widget: string}
+          - {label: Afbeelding, name: image, widget: image}
+      - file: "site/data/afbeeldingenoverzicht.json"
+        label: "Afbeeldingen Overzicht"
+        name: "afbeeldingenoverzicht"
         fields:
           - {label: Titel, name: title, widget: string}
           - {label: Afbeelding, name: image, widget: image}
