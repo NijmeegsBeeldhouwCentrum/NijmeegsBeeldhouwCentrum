@@ -1,6 +1,6 @@
 ---
-title: Nijmeegs Beeldhouw Centrum
-subtitle: Peter Dekker
+title: .
+subtitle: .
 image: /img/Botenhuis_Nijmegen.jpg
 blurb:
   heading: Why Kaldi?
