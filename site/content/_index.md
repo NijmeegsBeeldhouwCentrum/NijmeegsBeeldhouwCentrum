@@ -29,7 +29,7 @@ intro:
 
     Voor meer inzicht in onze uitgangspunten, doelen en ambitie: zie Mijmeringen.
 
-    We hopen u, de komende maanden,  als beeldhouwer: professioneel of gevorderd amateur  of als belangstellende, aan boord te kunnen verwelkomen.
+    We hopen u, de komende maanden,  als beeldhouwer: professioneel of gevorderd amateur  of als belangstellende, aan boord te kunnen verwelkomen. 
 
 
     Paul Saris, voorzitter/penningmeester a.i.
