@@ -1,7 +1,7 @@
 ---
 title: Mijmeringen
 logo: /img/logo.svg
-image: img/Botenhuis_Nijmegen.jpg
+image: img/botenhuis_nijmegen_header.jpeg
 ---
 Stichting Nijmeegs Beeldhouwcentrum ‘Peter Dekkers’
 
