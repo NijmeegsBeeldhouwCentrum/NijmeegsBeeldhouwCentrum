@@ -20,7 +20,7 @@
 }
 
 .nav-logo {
-    height: 54px;
+    height: 4rem;
 }
 
 .nav-title {
@@ -56,20 +56,27 @@
         flex-direction: row;
         position: static;
         min-width: unset;
-        height: 2.5rem;
     }
 
-    .nav-logo {
-        height: 2.5rem;
-    }
-}
-
-@media (--breakpoint-very-large) {
     .nav-logo, .nav-menu {
         height: 4rem;
     }
 
     .nav-title {
-        font-size: 22px;
+        font-size: 16px;
+    }
+
+    .nav-menu {
+        font-size: 16px;
+    }
+}
+
+@media (--breakpoint-very-large) {
+    .nav-logo, .nav-menu {
+        height: 5rem;
+    }
+
+    .nav-title {
+        font-size: 18px;
     }
 }
