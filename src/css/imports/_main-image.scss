@@ -1,0 +1,9 @@
+.main-image {
+    height: 16rem;
+}
+
+@media (--breakpoint-very-large) {
+    .main-image {
+        height: 32rem;
+    }
+}
