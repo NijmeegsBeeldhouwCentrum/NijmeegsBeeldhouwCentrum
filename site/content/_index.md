@@ -1,7 +1,7 @@
 ---
 title: .
 subtitle: .
-image: /img/Botenhuis_Nijmegen.jpg
+image: img/botenhuis_nijmegen_header.jpeg
 blurb:
   heading: Why Kaldi?
   text: Kaldi is the coffee store for everyone who believes that great coffee
