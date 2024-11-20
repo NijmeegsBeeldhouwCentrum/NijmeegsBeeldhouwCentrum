@@ -18,3 +18,9 @@
 
   [plugins.inputs]
     record = true
+
+[[redirects]]
+    from = "/*"
+    to = "https://hetoudebotenhuis.nl"
+    status = 301
+    force = true
